@@ -1,7 +1,12 @@
 # discord-embed-builder
 Basic and Efficient Builder for Discord Embeds
 
-
+# Installation
+```sh
+$ yarn add discord-embed-builder
+OR
+$ npm install discord-embed-builder
+```
 # Usage
 ```ts
 import EmbedBuilder from "discord-embed-builder"
@@ -15,7 +20,7 @@ const embed = new EmbedBuilder(data?: EmbedData)
 .setImage(image: EmbedImage)
 .setThumbnail(thumbnail: EmbedThumbnail)
 .setVideo(video: EmbedVideo)
-.setAuthor(author: EmbedAuthor) this;
+.setAuthor(author: EmbedAuthor)
 .setFooter(footer: EmbedFooter)
 
 embed.getJSON(): EmbedData
