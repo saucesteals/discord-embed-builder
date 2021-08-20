@@ -3,9 +3,9 @@ Basic and Efficient Builder for Discord Embeds
 
 # Installation
 ```sh
-$ yarn add discord-embed-builder
+$ yarn add @saucesteals/discord-embed-builder
 OR
-$ npm install discord-embed-builder
+$ npm install @saucesteals/discord-embed-builder
 ```
 # Usage
 ```ts
