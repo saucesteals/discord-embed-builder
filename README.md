@@ -9,7 +9,7 @@ $ npm install discord-embed-builder
 ```
 # Usage
 ```ts
-import EmbedBuilder from "discord-embed-builder"
+import EmbedBuilder from "@saucesteals/discord-embed-builder"
 
 const embed = new EmbedBuilder(data?: EmbedData)
 .setColor(color: HexColor | number)

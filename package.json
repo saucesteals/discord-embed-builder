@@ -1,5 +1,5 @@
 {
-  "name": "discord-embed-builder",
+  "name": "@saucesteals/discord-embed-builder",
   "version": "1.0.0",
   "description": "Basic and Efficient Builder for Discord Embeds",
   "repository": "https://github.com/saucesteals/discord-embed-builder",
