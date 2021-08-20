@@ -10,7 +10,7 @@ import type {
 } from "./types";
 
 export default class EmbedBuilder {
-  private data: EmbedData = {};
+  constructor(private data: EmbedData = {}) {}
 
   public setColor(color: HexColor | number): this {
     if (typeof color === "string") {
@@ -47,18 +47,11 @@ export default class EmbedBuilder {
     return this;
   }
 
-  public addField(name: string, value: string, inline: boolean = false): this {
-    if (!this.data.fields) this.data.fields = [];
-
-    this.data.fields.push({ name, value, inline: inline });
-
-    return this;
-  }
-
-  public addFields(fields: EmbedField[]): this {
+  public addFields(...fields: EmbedField[]): this {
     if (!this.data.fields) this.data.fields = [];
 
     this.data.fields.push(...fields);
+
     return this;
   }
 
