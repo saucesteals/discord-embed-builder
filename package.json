@@ -1,0 +1,17 @@
+{
+  "name": "discord-embed-builder",
+  "version": "1.0.0",
+  "description": "Basic and Efficient Builder for Discord Embeds",
+  "repository": "https://github.com/saucesteals/discord-embed-builder",
+  "author": "Daniel <saucesteals@gmail.com>",
+  "license": "MIT",
+  "main": "lib",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "clear": "rimraf lib",
+    "build": "yarn clear && tsc",
+    "prepare": "yarn build"
+  }
+}
