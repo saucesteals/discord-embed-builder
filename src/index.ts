@@ -10,7 +10,7 @@ import type {
 } from "./types";
 
 export default class EmbedBuilder {
-  constructor(private data: EmbedData = {}) {}
+  constructor(public data: EmbedData = {}) {}
 
   public setColor(color: HexColor | number): this {
     if (typeof color === "string") {
